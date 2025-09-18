@@ -9,7 +9,7 @@ function App() {
   return (
     <section>
       <div className="wrapper">
-        <a href="/"><img className="logo-pop" src="/assets/logo.png" alt="Anh Thu Logo" /></a>
+        <a href="/"><img className="logo-pop" src="assets/logo.png" alt="Anh Thu Logo" /></a>
           <Nav />
       </div>
         <Routes>

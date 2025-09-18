@@ -55,16 +55,16 @@ export default function Chat() {
                 </div>
                 <aside className="social-container">
                     <a href="https://www.linkedin.com/in/anh-thu-kieu-411293383/" target="_blank" rel="noopener noreferrer">
-                        <img src="./public/assets/linkedin.svg" alt="LinkedIn" />
+                        <img src="assets/linkedin.svg" alt="LinkedIn" />
                     </a>
                     <a href="https://github.com/anhthu258" target="_blank" rel="noopener noreferrer">
-                        <img src="./public/assets/github.svg" alt="GitHub" />
+                        <img src="assets/github.svg" alt="GitHub" />
                     </a>
                     <a href="https://www.facebook.com/anhthu.kieu.90/?locale=da_DK" target="_blank" rel="noopener noreferrer">
-                        <img src="./public/assets/facebook.svg" alt="Facebook" />
+                        <img src="assets/facebook.svg" alt="Facebook" />
                     </a>
                     <a href="https://www.instagram.com/in_sane258?igsh=MTBoc2hiOHIyOG9oag==" target="_blank" rel="noopener noreferrer">
-                        <img src="./public/assets/instagram.svg" alt="Instagram" />
+                        <img src="assets/instagram.svg" alt="Instagram" />
                     </a>
                 </aside>
             </aside>

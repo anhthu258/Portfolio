@@ -21,7 +21,7 @@ export default function Home() {
           <aside className="social">
             <img src="assets/line.png" alt="straight line"/>
             <a href="https://www.linkedin.com/in/anh-thu-kieu-411293383/" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/linkedin.svg" alt="Linkedin Logo" />
+              <img src="assets/linkedin.svg" alt="Linkedin Logo" />
             </a>
             <a href="./Chat" target="_blank" rel="noopener noreferrer">
               <img src="assets/envelope.svg" alt="Mail Logo" />

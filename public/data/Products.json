@@ -3,35 +3,35 @@
       "id": 1,
       "title": "Webuniverse",
       "description": "The very first project I've built using only HTML and CSS.",
-      "image": "/assets/webuniverse.png",
+      "image": "assets/webuniverse.png",
       "link": "https://webuniverse.natk.dk"
     },
     {
       "id": 2,
       "title": "Radar",
       "description": "A school project about rebranding project for Aarhus Radar using only HTML and CSS.",
-      "image": "/assets/radar.png",
+      "image": "assets/radar.png",
       "link": "https://radar.natk.dk"
     },
     {
       "id": 3,
       "title": "Street Food Aarhus",
       "description": "A website for street food market in Aarhus, built with HTML and CSS. This was a group project.",
-      "image": "/assets/streetfood.png",
+      "image": "assets/streetfood.png",
       "link": "https://streetfood.makiro.dk.html"
     },
     {
       "id": 4,
       "title": "Zero Buzz Brew",
       "description": "A website for a fictional coffee brand called Zero Buzz Brew, built with HTML, CSS and JavaScript. This was a group project, and the site is not fully responsive.",
-      "image": "/assets/zerobuzzbrew.png",
+      "image": "assets/zerobuzzbrew.png",
       "link": "https://zerobuzzbrew.natk.dk"
     },
     {
       "id": 5,
       "title": "Steno Museum",
       "description": "An interactive screen for the Steno Museum, built with HTML, CSS and JavaScript. This was a group project",
-      "image": "/assets/steno.png",
+      "image": "assets/steno.png",
       "link": "http://steno.makiro.dk"
     }
 ]
