@@ -39,14 +39,14 @@ export default function Projects() {
         <aside>
             <h1>Samuel Esspresso</h1>
               <p>This is the only branding where I focused on creating a cohesive visual identity for the client. This is a approved and work in progress for me and the client</p>
-              <img src="/assets/samuel-package.png" alt="Packaging Design"/>
-              <img src="/assets/samuel-logo.png" alt="Logo Design"/>
+              <img src="assets/samuel-package.png" alt="Packaging Design"/>
+              <img src="assets/samuel-logo.png" alt="Logo Design"/>
         </aside>
         <aside>
             <h1>Samuel Esspresso Website design</h1>
             <div className="samuel-web">
-              <img src="/assets/samuel-shop.png" alt="Samuel Esspresso shopping page" />
-              <img src="/assets/samuel-forside.png" alt="Samuel Esspresso landing page" />
+              <img src="assets/samuel-shop.png" alt="Samuel Esspresso shopping page" />
+              <img src="assets/samuel-forside.png" alt="Samuel Esspresso landing page" />
             </div>
         </aside>
       </section>

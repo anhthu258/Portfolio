@@ -3,7 +3,7 @@ export default function About() {
         <section className="about-me">
             <aside>
                 <div>
-                    <img src="/assets/portrait-mono2.png" alt="Me but in black and white" />
+                    <img src="assets/portrait-mono2.png" alt="Me but in black and white" />
                 </div>
                 <div className="content">
                     <h1>About Me</h1>

@@ -78,7 +78,7 @@ const Preview = () => {
 			<h1>{typedH1}<span className="type-cursor">|</span></h1>
 			<div className="carousel-arrows">
 				<button className="arrow left" onClick={scrollLeft} aria-label="Scroll left">
-					<img src="/assets/arrow-left.png" alt="Arrow left"/>
+					<img src="assets/arrow-left.png" alt="Arrow left"/>
 				</button>
 				<div className="swiper" ref={swiperRef}>
 					<div className="swiper-wrapper">
@@ -99,7 +99,7 @@ const Preview = () => {
 					</div>
 				</div>
 				<button className="arrow right" onClick={scrollRight} aria-label="Scroll right">
-					<img src="/assets/arrow-right.png" alt="Arrow right"/>
+					<img src="assets/arrow-right.png" alt="Arrow right"/>
 				</button>
 			</div>
 		</section>
