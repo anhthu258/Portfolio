@@ -40,7 +40,7 @@ const Preview = () => {
 	const slideWidth = 350;
 
 	useEffect(() => {
-		fetch("/data/slide.json")
+		fetch("data/slide.json")
 			.then((res) => res.json())
 			.then((data) => setSlides(data));
 	}, []);
