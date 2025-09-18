@@ -4,7 +4,7 @@ export default function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("data/products.json")
+    fetch("data/Products.json")
       .then(res => res.json())
       .then(data => setProjects(data));
   }, []);
