@@ -1,6 +1,6 @@
 import { useRef, useEffect, useState } from "react";
-import Parallax from "../Components/Parallax";
-import Preview from "../Components/Preview";
+import Parallax from "../temp-components/Parallax";
+import Preview from "../temp-components/Preview";
 
 export default function Home() {
   const faceRef = useRef(null);

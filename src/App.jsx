@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router";
-import Project from "./Pages/Project";
-import Chat from "./Pages/Chat";
-import Nav from "./Components/Nav";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
+import Project from "./temp-pages/Project";
+import Chat from "./temp-pages/Chat";
+import Nav from "./temp-components/Nav";
+import Home from "./temp-pages/Home";
+import About from "./temp-pages/About";
 
 function App() {
   return (
