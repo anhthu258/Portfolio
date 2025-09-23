@@ -35,6 +35,9 @@ export default function Home() {
             <a href="https://github.com/anhthu258" target="_blank" rel="noopener noreferrer">
               <img src="assets/github.svg" alt="Github Logo" />
             </a>
+            <a href="assets/cv-2025.pdf" download target="_blank" rel="noopener noreferrer">
+              <p>CV</p>
+            </a>
             <img src="assets/line.png" alt="straight line"/>
           </aside>
           <aside
