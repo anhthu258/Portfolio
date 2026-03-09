@@ -3,31 +3,36 @@
     "img": "assets/streetfood-prev.png",
     "alt": "Aarhus Street Food",
     "title": "Aarhus Street Food",
-    "desc": "Reworking of Aarhus Street Food website"
+    "desc": "Reworking of Aarhus Street Food website",
+    "link": "https://streetfood.makiro.dk.html"
   },
   {
     "img": "assets/zerobuzz-prev.png",
     "alt": "ZeroBuzzbrew",
     "title": "Zero Buzz Brew",
-    "desc": "Branding of fictional alcohol free brand Zero Buzz Brew"
+    "desc": "Branding of fictional alcohol free brand Zero Buzz Brew",
+    "link": "https://zerobuzzbrew.natk.dk"
   },
   {
     "img": "assets/radar-prev.png",
     "alt": "Aarhus Radar",
     "title": "Aarhus Radar",
-    "desc": "Rebranding of Aarhus Radar"
+    "desc": "Rebranding of Aarhus Radar",
+    "link": "https://radar.natk.dk"
   },
   {
     "img": "assets/studylab-prev.png",
     "alt": "StudyLab",
     "title": "StudyLab",
-    "desc": "Branding of fictional magazine StudyLab"
+    "desc": "Branding of fictional magazine StudyLab",
+    "link": "https://webuniverse.natk.dk"
   },
   {
     "img": "assets/steno-prev.png",
     "alt": "Steno Museum",
     "title": "Steno Museum",
-    "desc": "Designing an interactive digital exhibition for Steno Museum"
+    "desc": "Designing an interactive digital exhibition for Steno Museum",
+    "link": "http://steno.makiro.dk"
   },
   {
     "img": "assets/samuel-prev.png",

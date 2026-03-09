@@ -582,8 +582,9 @@ p {
 .overlay {
   position: absolute;
   bottom: 1rem;
-  left: 1rem;
-  right: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: calc(100% - 2rem);
   background: rgba(255,255,255,0.8);
   border-radius: var(--border-radius);
   padding: 0.5rem;
@@ -592,6 +593,7 @@ p {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s;
+  width: fit-content;
 }
 
 .swiper-slide:hover .overlay,
@@ -648,9 +650,17 @@ p {
 }
 
 /* ---------- Projects ---------- */
+.project-section {
+  height: 100vh;
+  scroll-snap-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .projects-list {
-  padding: 2rem;
-  margin: 2rem;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  height: 100vh;
 }
 
 .project-card p {
@@ -660,7 +670,7 @@ p {
 
 .projects-grid {
   display: flex;
-  flex-direction: row;  
+  flex-direction: column;  
   gap: 2rem;
   overflow-x: auto;      
   padding-bottom: 1rem;  
@@ -673,29 +683,34 @@ p {
 
 .project-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  width: 260px;
-  padding: 1rem;
-  border-radius: 1rem;
-  box-shadow: var(--shadow, 0 2px 8px rgba(0,0,0,0.1));
-  background: #fff;
+  width: 70vw;
+  padding: 2rem;
   text-decoration: none;
   color: inherit;
   transition: transform 0.2s;
-}
-
-.project-card:hover {
-  transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  gap: 4rem;
+  background: var(--primary-light);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
 }
 
 .project-img {
-  width: 100%;
-  height: 160px;
+  width: auto;
+  max-width: 50%;
+  height: 300px;
   object-fit: contain;
   border-radius: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
 }
 
 /* ---------- Projects branding ---------- */

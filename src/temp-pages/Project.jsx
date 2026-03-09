@@ -11,30 +11,28 @@ export default function Projects() {
 
   return (
     <div className="projects-page">
-      <section className="projects-list">
-        <h1>My Projects</h1>
-        <div className="projects-grid">
-          {projects.map((project, idx) => (
-            <a
-              key={project.link || idx}
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-card"
-            >
-              {project.image && (
-                <img
-                  src={project.image}
-                  alt={project.title || "Project image"}
-                  className="project-img"
-                />
-              )}
+      {projects.map((project, idx) => (
+        <section key={project.link || idx} className="project-section">
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card"
+          >
+            {project.image && (
+              <img
+                src={project.image}
+                alt={project.title || "Project image"}
+                className="project-img"
+              />
+            )}
+            <div className="project-content">
               <h2>{project.title || project.link}</h2>
               <p>{project.description || ""}</p>
-            </a>
-          ))}
-        </div>
-      </section>
+            </div>
+          </a>
+        </section>
+      ))}
       <section className="branding">
         <aside>
             <h1>Samuel Esspresso</h1>
